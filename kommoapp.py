@@ -4,9 +4,8 @@ import json
 from datetime import datetime
 import time
 
-# domain = input("Please input your domain: ")
+domain = input("Please input your domain: ")
 
-domain = "keitex"
 base = f"https://{domain}.kommo.com"
 ids = []
 keys = []
